@@ -2,10 +2,9 @@
 <!-- 
   Author: Leslie Espino
   File Name: index.html
-  Date: 12/2/2025
-  Purpose: Home page for bioSite project about Dane Minnick
+  Date: 12/16/2025
+  Purpose: Home page for bioSite project about Dane 
 -->
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -25,43 +24,116 @@
 <body>
 
   <header>
-    <h1>bioSite: Dane Minnick</h1>
+    <h1>bioSite: Dane</h1>
     <p>A closer look at his life, goals, and hobbies.</p>
   </header>
 
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Hobby</a></li>
-      <li><a href="#">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="hobby.html">Hobbies</a></li>
     </ul>
   </nav>
 
   <main>
 
-    <!-- Hero section -->
-    <section>
-      <h2>Welcome to Dane's Story</h2>
-      <p>
-        This website is dedicated to sharing the story of Dane Minnick, someone who balances hard work,
-        family, and fun. Dane is currently working through his electrician apprenticeship, a path inspired
-        by watching his dad work with his hands and fix just about anything. His journey blends learning a
-        skilled trade with planning for a future that lets him support himself while still making time for
-        the people and activities he loves.
-      </p>
-      <p>
-        When he is not working, Dane enjoys a mix of sports, travel, and time outdoors. He is a dedicated
-        Chicago Cubs fan and loves watching baseball with friends and family. Traveling to new places is
-        also a big part of his life. He has already visited many states and hopes to see all fifty one day.
-        Many of his trips include concerts where he can tailgate before the show, combining his love of
-        music, grilling, and hanging out with friends.
-      </p>
-      <p>
-        This site will grow over time to highlight different sides of Dane’s life, including his work on
-        the family farm, his cookout competition win, and the hobbies that keep him motivated. Each page
-        will use photos, color, and layout choices that reflect his personality and interests.
-      </p>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Welcome to Dane's Story</h2>
+        <p>
+          This website is dedicated to sharing the story of Dane Minnick, someone who balances
+          hard work, family, and fun. Dane is currently working through his electrician
+          apprenticeship, a path inspired by watching his dad work with his hands and fix just
+          about anything. His journey blends learning a skilled trade with planning for a future
+          that lets him support himself while still making time for the people and activities he loves.
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/dane-hero.jpg" alt="Portrait of Dane Minnick smiling outdoors">
+      </div>
+    </section>
+
+    <section class="row section-card">
+      <div class="col">
+        <img src="images/dane-working.jpg" alt="Dane working during his electrician apprenticeship">
+      </div>
+      <div class="col">
+        <p>
+          Dane is currently in an electrician apprenticeship program. He enjoys learning how
+          things are wired, troubleshooting problems, and working alongside his dad on projects.
+          This hands-on work fits his personality and gives him a foundation for a stable career.
+        </p>
+      </div>
+    </section>
+
+    <section class="row alt section-card">
+      <div class="col">
+        <p>
+          Outside of work, Dane is a big Chicago Cubs fan and loves traveling to new places.
+          He has already visited many states and hopes to see all fifty one day. You can often
+          find him tailgating before concerts, grilling food, and spending time with friends.
+        </p>
+        <p>
+          Learn more about the Chicago Cubs on their official website:
+          <a href="https://www.mlb.com/cubs" target="_blank" rel="noopener">Chicago Cubs</a>.
+        </p>
+      </div>
+      <div class="col">
+        <img src="images/dane-baseball.jpg" alt="Dane at a baseball game">
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="col">
+        <h2>Dane at a Glance</h2>
+
+        <div class="desktop">
+          <table>
+            <caption>Dane at a Glance</caption>
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Details</th>
+            </tr>
+            <tr>
+              <td>Career</td>
+              <td>Electrician apprenticeship</td>
+            </tr>
+            <tr>
+              <td>Favorite team</td>
+              <td>Chicago Cubs</td>
+            </tr>
+            <tr>
+              <td>Hobby</td>
+              <td>Grilling and cooking for others</td>
+            </tr>
+            <tr>
+              <td>Travel goal</td>
+              <td>Visit all 50 states</td>
+            </tr>
+            <tr>
+              <td>Favorite activity</td>
+              <td>Concerts and spending time with friends</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="mobile-tablet">
+          <ul>
+            <li><strong>Career:</strong> Electrician apprenticeship</li>
+            <li><strong>Favorite team:</strong> Chicago Cubs</li>
+            <li><strong>Hobby:</strong> Grilling and cooking for others</li>
+            <li><strong>Travel goal:</strong> Visit all 50 states</li>
+            <li><strong>Favorite activity:</strong> Concerts and spending time with friends</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="col">
+        <img src="images/dane-casual.jpg" alt="Dane smiling outdoors">
+      </div>
     </section>
 
   </main>
